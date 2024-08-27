@@ -1,0 +1,5 @@
+intel-onetbb (2021.6.0-0ubuntu1~24.04~ppa1) noble; urgency=medium
+
+  * Initial release
+
+ -- Shane McKee <shane.mckee@canonical.com>  Tue, 27 Jul 2024 19:30:21 +0800
