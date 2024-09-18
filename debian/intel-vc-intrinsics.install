@@ -1,2 +1,0 @@
-debian/intel-vc-intrinsics/install-fepre/include/llvm/GenXIntrinsics usr/include/llvm
-debian/intel-vc-intrinsics/install-fepre/lib/libLLVMGenXIntrinsics.a usr/lib/
