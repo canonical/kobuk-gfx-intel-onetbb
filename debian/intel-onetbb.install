@@ -1,0 +1,4 @@
+usr/lib/x86_64-linux-gnu/libtbb.so
+usr/lib/x86_64-linux-gnu/libtbbmalloc.so
+usr/lib/x86_64-linux-gnu/libtbbmalloc_proxy.so
+usr/include/*

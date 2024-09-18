@@ -7,7 +7,7 @@ Build-Depends:
  debhelper-compat (= 13),
  cmake,
 Standards-Version: 4.6.2
-Homepage: https://github.com/intel/vc-intrinsics
+Homepage: https://github.com/oneapi-src/oneTBB
 
 Package: intel-onetbb
 Architecture: amd64
@@ -20,6 +20,23 @@ Description: oneAPI Threading Building Blocks (oneTBB)
  to complex applications, even if you are not a threading expert.
  .
  The library lets you easily write parallel programs that take full advantage 
+ of the multi-core performance. Such programs are portable, composable and have
+ a future-proof scalability. oneTBB provides you with functions, interfaces,
+ and classes to parallelize and scale the code. All you have to do is to use
+ the templates.
+
+Package: intel-onetbb-dev
+Architecture: amd64
+Multi-Arch: same
+Depends:
+ intel-onetbb,
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: oneAPI Threading Building Blocks (oneTBB)
+ oneTBB is a flexible C++ library that simplifies the work of adding parallelism
+ to complex applications, even if you are not a threading expert.
+ .
+ The library lets you easily write parallel programs that take full advantage
  of the multi-core performance. Such programs are portable, composable and have
  a future-proof scalability. oneTBB provides you with functions, interfaces,
  and classes to parallelize and scale the code. All you have to do is to use

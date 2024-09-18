@@ -1,0 +1,9 @@
+usr/lib/x86_64-linux-gnu/libtbb.so.12.6
+usr/lib/x86_64-linux-gnu/libtbbmalloc.so.2.6
+usr/lib/x86_64-linux-gnu/libtbbmalloc_proxy.so.2.6 
+usr/lib/x86_64-linux-gnu/libtbb.so.12
+usr/lib/x86_64-linux-gnu/libtbbmalloc.so.2
+usr/lib/x86_64-linux-gnu/libtbbmalloc_proxy.so.2
+usr/lib/x86_64-linux-gnu/cmake/*
+usr/share/doc/*
+usr/lib/x86_64-linux-gnu/pkgconfig/tbb.pc

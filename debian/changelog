@@ -1,8 +1,12 @@
 intel-onetbb (2021.6.0-0ubuntu1~24.10~ppa2) oracular; urgency=medium
 
+  * Created a -dev package with install files
   * Changed the copyright holder to Canonical Ltd.
   * Changed format to native from quilt
   * Remove other package's install file 
+  * Added hardening+bindnow to rules at Lintian's suggestion 
+  * Updated the home page
+  * Add a Linitan override for sonames not matching
 
  -- Shane McKee <shane.mckee@canonical.com>  Wed, 18 Sep 2024 19:28:30 +0800
 
